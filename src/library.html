@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My library — watched and queue movies</title>
+    <meta
+      name="Description"
+      content="Watch the most popular, modern and new movies"
+    />
+    <meta
+      name="Keywords"
+      content="Filmoteka, my library, watched, queue, movies"
+    />
+    <link
+      rel="canonical"
+      href="https://truemolni.github.io/filmoteka-team-project-11/library.html"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon/favicon.svg"
+      type="image/svg"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="./library.js"></script>
+  </head>
+  <body>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <include src="./partials/header-library.html"></include>
+    <main>
+      <section>
+        <h1 class="visually-hidden">Library</h1>
+          <include src="./partials/movies-container.html"></include>
+      </section>
+    </main>
+    <include src="./partials/scroll.html"></include>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/modalCard.html"></include>
+    <include src="./partials/modal_our-team.html"></include>
+  </body>
+</html>

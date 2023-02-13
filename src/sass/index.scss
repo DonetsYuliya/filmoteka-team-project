@@ -1,0 +1,30 @@
+// utils
+@import './utils/brakpoints'; //це міксин для адаптивки. Треба, щоб він був зверху, бо знизу не працю
+
+// base
+@import './base/base';
+@import './base/common';
+@import './base/container';
+@import './base/container_my-library';
+@import './base/variables';
+// components
+@import './components/header';
+@import './components/header-library';
+@import './components/film-list';
+@import './components/pagination';
+@import './components/footer';
+@import './components/themes';
+@import './components/searchByKeyWord';
+@import './components/loader';
+@import './components/clear-library';
+@import './components/scroll';
+
+//layout
+
+//modules
+@import './modules/modal_our-team';
+@import './modules/modal';
+@import './modules/trailer';
+// utils
+@import './utils/mixins';
+@import './utils/visually-hidden';
